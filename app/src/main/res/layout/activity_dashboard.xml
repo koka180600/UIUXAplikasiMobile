@@ -48,16 +48,34 @@
             app:layout_constraintTop_toBottomOf="@+id/MD"
             tools:ignore="MissingConstraints" />
 
+
+        <TextView
+            android:id="@+id/LO"
+            android:layout_width="74dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_photo"
+            tools:ignore="MissingConstraints" />
+
         <GridLayout
             android:id="@+id/grid_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="38dp"
+            android:layout_marginEnd="16dp"
             android:columnCount="2"
             android:rowCount="3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profile_photo">
 
             <androidx.cardview.widget.CardView
@@ -66,16 +84,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="105dp"
                         android:layout_height="105dp"
-                        android:src="@drawable/penelitian"/>
+                        android:src="@drawable/penelitian" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -94,16 +113,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="98dp"
-                        android:src="@drawable/pembelajaran"/>
+                        android:src="@drawable/pembelajaran" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -122,16 +142,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="108dp"
-                        android:src="@drawable/cergam1"/>
+                        android:src="@drawable/cergam1" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -150,16 +171,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="108dp"
-                        android:src="@drawable/kreatif"/>
+                        android:src="@drawable/kreatif" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -178,16 +200,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="110dp"
                         android:layout_height="98dp"
-                        android:src="@drawable/antologi"/>
+                        android:src="@drawable/antologi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -206,16 +229,17 @@
                 android:layout_height="159dp"
                 android:layout_margin="16dp"
                 app:cardCornerRadius="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="108dp"
-                        android:src="@drawable/novel"/>
+                        android:src="@drawable/novel" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -225,6 +249,7 @@
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
